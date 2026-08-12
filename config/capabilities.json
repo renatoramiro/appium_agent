@@ -1,10 +1,17 @@
 {
   "android": {
+    "platformName": "Android",
     "appium:app": "/path/to/your/android/app.apk",
-    "appium:deviceName": "Android Device",
+    "appium:deviceName": "Android Emulator",
     "appium:automationName": "UiAutomator2",
     "appium:platformVersion": "",
     "appium:udid": "",
-    "appium:noReset": false
+    "appium:appPackage": "",
+    "appium:appActivity": "",
+    "appium:noReset": false,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": true,
+    "appium:ensureWebviewsHavePages": true,
+    "appium:nativeWebScreenshot": true
   }
 }

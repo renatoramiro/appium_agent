@@ -44,6 +44,12 @@ O MCP server expõe: `select_device`, `appium_session_management` (create/delete
 3. `npx appium-mcp@latest` — smoke test do handshake MCP
 4. Rodar um teste de exemplo contra o app
 
+## Melhorias adotadas (fonte: Software Testing Trends — Appium MCP Server)
+
+- Capabilities Android ampliadas (`newCommandTimeout`, `connectHardwareKeyboard`, `ensureWebviewsHavePages`, `nativeWebScreenshot`, `appPackage`/`appActivity`)
+- Modos de operação no CLI: `test`, `explore` (mapeia o app), `debug` (causa raiz + correção), `generate` (gera testes) e `smoke` (offline)
+- Instrução de sessão alinhada ao servidor oficial: sempre `select_device` com `platform="android"` antes de criar sessão
+
 ## Riscos / decisões anotadas
 
 - Latência: cada ação custa 2-4s (raciocínio LLM) → adequado para E2E funcional, não benchmark
