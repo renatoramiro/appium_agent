@@ -1,0 +1,35 @@
+# Rust / Python (uv)
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Node / npx (appium-mcp)
+node_modules/
+.npm/
+*protocol.log
+
+# Evidências de teste geradas pelo agente
+screenshots/
+reports/
+*.png
+*.jpg
+*.xml
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

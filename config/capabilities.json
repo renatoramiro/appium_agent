@@ -1,0 +1,10 @@
+{
+  "android": {
+    "appium:app": "/path/to/your/android/app.apk",
+    "appium:deviceName": "Android Device",
+    "appium:automationName": "UiAutomator2",
+    "appium:platformVersion": "",
+    "appium:udid": "",
+    "appium:noReset": false
+  }
+}
